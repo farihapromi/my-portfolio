@@ -66,6 +66,26 @@ th,td{
 
 
 }
+
+
+.interest{
+    background-image:url(image/exp-bg.png);
+    background-repeat:no-repeat;
+    background-position:left;
+}
+
+.interest-item{
+    width:40%;
+    box-shadow: 60px -16px lightpink;
+    margin-left:5%;
+    margin-right:5%;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:20px;
+    padding-bottom:20px;
+
+ 
+}
 #web-dev{
     border-left:7px solid;
     border-image: linear-gradient(blue,skyblue);
@@ -81,6 +101,41 @@ th,td{
     border-image:linear-gradient(cyan,skyblue);
     border-image-slice:1;
 }
-.volun-area{
-    
+#machine{
+    border-left:8px;
+    border-image:linear-gradient(red,orange);
+   
 }
+#content{
+
+    border-left:8px;
+    border-image:linear-gradient(red,orange);
+}
+
+
+.img1{
+    background: url("https://img.freepik.com/free-vector/raised-hands-volunteering-blue-background-vector_77417-471.jpg?size=626&ext=jpg");
+    min-height:100%;
+}
+.img1{
+    position: relative;
+    opacity: .85;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.heading{
+    position: absolute;
+    top: 50%;
+    font-size:650%;
+    text-shadow: 0 0 15px #000;
+   
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing:8px;
+    
+    }
+    section{
+        padding :50px 80px;
+    }
